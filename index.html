@@ -13,21 +13,21 @@
             text-align: center;
         }
         header {
-            background: linear-gradient(90deg, #0044cc, #001a66);
+            background: linear-gradient(90deg, #0044cc, #001a66), url('QuantiumXLogo.png'); /* Image as background */
+            background-size: 100px 100px; /* Adjust the size of the logo */
+            background-position: left center;
+            background-repeat: no-repeat;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        header img {
-            max-width: 50px; /* Adjust this size to fit your design */
-            height: auto;
-            margin-right: 10px; /* Add some space between the image and the text */
+            text-align: left;
         }
         header h1 {
             margin: 0;
             font-size: 36px;
+            color: #fff;
         }
         .btn {
             background: #0044cc;
@@ -75,7 +75,6 @@
 <body>
 
     <header>
-        <img src="QuantiumXLogo.png" alt="Quantium X Logo"> <!-- Replace with your image URL -->
         <h1>Quantium X</h1>
     </header>
 
