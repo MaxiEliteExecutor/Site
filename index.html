@@ -11,32 +11,23 @@
             color: #fff;
             font-family: 'Poppins', sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
         }
         header {
-            background: url('QuantiumXLogo.png') no-repeat center center; /* Background image */
-            background-size: cover; /* Ensure the image covers the area */
-            padding: 80px 20px; /* Add padding to make room for the content */
+            background: linear-gradient(90deg, #0044cc, #001a66);
+            padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header img {
+            max-width: 50px; /* Adjust this size to fit your design */
+            height: auto;
+            margin-right: 10px; /* Add some space between the image and the text */
         }
         header h1 {
+            margin: 0;
             font-size: 36px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow to make text stand out */
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 20px;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
         }
         .btn {
             background: #0044cc;
@@ -69,6 +60,11 @@
             padding: 10px;
             font-size: 18px;
         }
+        .note {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #bbb;
+        }
         footer {
             background-color: #0044cc;
             padding: 15px;
@@ -79,15 +75,8 @@
 <body>
 
     <header>
+        <img src="QuantiumXLogo.png" alt="Quantium X Logo"> <!-- Replace with your image URL -->
         <h1>Quantium X</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#download">Download</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section id="home">
@@ -95,7 +84,7 @@
         <p>The most advanced Roblox executor with powerful features.</p>
         <a href="#download" class="btn">Download Now</a>
     </section>
-
+    
     <section id="features">
         <h2>Features</h2>
         <ul>
@@ -105,13 +94,13 @@
             <li>User-friendly interface</li>
         </ul>
     </section>
-
+    
     <section id="download">
         <h2>Download Quantium X</h2>
         <p>Click below to download the latest version.</p>
         <a href="/Download.html" class="btn">Download</a>
     </section>
-
+    
     <section id="faq">
         <h2>Frequently Asked Questions</h2>
         <details>
@@ -120,11 +109,13 @@
         </details>
         <details>
             <summary>Where do I get a key?</summary>
+            <p>You can get a key from our <a href="https://your-key-system-site.com" target="_blank">Key System</a>.</p>
         </details>
     </section>
-
+    
     <footer>
         <p>&copy; 2025 Quantium X. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
