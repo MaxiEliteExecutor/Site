@@ -13,13 +13,20 @@
             text-align: center;
         }
         header {
-            background: linear-gradient(90deg, #0044cc, #001a66);
+            background: linear-gradient(90deg, #0044cc, #001a66), url('QuantiumXLogo.png');
+            background-size: 80px 80px; /* Adjust the size of the logo */
+            background-position: left center;
+            background-repeat: no-repeat;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        header img {
-            max-width: 150px; /* Adjust this value to set the image size */
-            margin-bottom: 10px;
+        header h1 {
+            margin-left: 10px; /* Adjusts space between the logo and text */
+            font-size: 36px;
+            color: white;
         }
         .btn {
             background: #0044cc;
@@ -65,19 +72,11 @@
     </style>
 </head>
 <body>
+
     <header>
-        <img src="your-image-url-here.jpg" alt="Quantium X Logo"> <!-- Replace with your image URL -->
         <h1>Quantium X</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#download">Download</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
-        </nav>
     </header>
-    
+
     <section id="home">
         <h2>Welcome to Quantium X</h2>
         <p>The most advanced Roblox executor with powerful features.</p>
