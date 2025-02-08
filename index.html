@@ -11,23 +11,31 @@
             color: #fff;
             font-family: 'Poppins', sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
+
         header {
-            background: linear-gradient(90deg, #0044cc, #001a66), url('QuantiumXLogo.png');
-            background-size: 80px 80px; /* Adjust the size of the logo */
-            background-position: left center;
-            background-repeat: no-repeat;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: #001a66;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
         }
+
+        header img {
+            max-width: 60px; /* Adjust size of the logo */
+            height: auto;
+            margin-right: 15px; /* Space between the image and text */
+        }
+
         header h1 {
-            margin-left: 10px; /* Adjusts space between the logo and text */
+            margin: 0;
             font-size: 36px;
             color: white;
         }
+
         .btn {
             background: #0044cc;
             padding: 15px 30px;
@@ -39,10 +47,12 @@
             display: inline-block;
             margin-top: 20px;
         }
+
         .btn:hover {
             background: #0066ff;
             transform: scale(1.1);
         }
+
         .features {
             background-color: #001a66;
             padding: 40px;
@@ -51,19 +61,23 @@
             max-width: 800px;
             box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
         }
+
         .features ul {
             list-style-type: none;
             padding: 0;
         }
+
         .features li {
             padding: 10px;
             font-size: 18px;
         }
+
         .note {
             margin-top: 15px;
             font-size: 14px;
             color: #bbb;
         }
+
         footer {
             background-color: #0044cc;
             padding: 15px;
@@ -74,7 +88,8 @@
 <body>
 
     <header>
-        <h1>Quantium X</h1>
+        <img src="QuantiumXLogo.png" alt="Quantium X Logo"> <!-- Logo Image -->
+        <h1>Quantium X</h1> <!-- Title -->
     </header>
 
     <section id="home">
@@ -116,4 +131,3 @@
     </footer>
 </body>
 </html>
-
